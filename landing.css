@@ -1,0 +1,119 @@
+*{
+	font-family: Roboto;
+}
+
+body{
+padding-bottom: 2em;
+}
+
+/*para el logo*/
+#miLogo{
+	padding: 3em 0 2em 0;
+	max-width: 80%;
+}
+/*para la info*/
+
+h1{
+	font-weight: bolder;
+	font-size: 1.7em;
+	color:black;
+	letter-spacing: 0.5px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.9em;
+    color: #707070;
+    font-weight: normal;
+    text-align: center;
+    padding: 2em;
+    line-height: 1.2em;
+}
+
+
+/*para el formulario*/
+.imgFormulario{
+	max-width: 80%;
+	max-height: 80%;
+}
+
+form{
+	padding: 3em 3em 2em 3em;
+	border-radius: 1em 2em 2em 2em;
+-webkit-box-shadow: 3px 3px 29px -2px rgba(0,0,0,0.2);
+-moz-box-shadow: 3px 3px 29px -2px rgba(0,0,0,0.2);
+box-shadow: 3px 3px 29px -2px rgba(0,0,0,0.2);
+max-width: 100%;
+}
+
+label{
+	padding-top: 1em;
+    margin: 0 0 0.2em 0;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+input{
+    color: black;
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0.5em 0.5em 0.5em 1em;
+    border: solid #e0e1e3 0.1em;
+    border-radius: 0.5em;
+    display: inline-block;
+    width: 100%;
+}
+
+::placeholder {
+  color: #b6bac1;
+}
+
+:-ms-input-placeholder { 
+ color: #b6bac1;
+}
+
+::-ms-input-placeholder { 
+ color: #b6bac1;
+}
+
+button{
+	color: white;
+    background-color: #e03b65;
+    padding: 1em 3em;
+    border: none;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin: 2em auto;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+/*media query*/
+
+@media (max-width: 576px){
+form{
+	margin-top: 2em;
+}
+}
+
+@media (min-width: 576px){
+form{
+	max-width: 100%;
+}
+
+p{
+    padding: 2em 6em;
+}
+
+.container{
+	padding: 0 8em;
+}
+}
+
+@media (max-width: 768px){
+.container{
+	padding: 0 3em;
+}
+}
